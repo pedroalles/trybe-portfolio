@@ -1,0 +1,40 @@
+header {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+}
+
+#color-palette {
+  display: flex;
+  justify-content: center;
+}
+
+.color {
+  color: white;
+  border: 1px solid black;
+  margin: 1px;
+  width: 80px;
+  height: 80px;
+}
+
+.pixel-line {
+  display: flex;
+  justify-content: center;
+}
+
+.pixel {
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+}
+
+.bt-container {
+  display: flex;
+  justify-content: center;
+}
