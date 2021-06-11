@@ -39,6 +39,7 @@ function incrementScore() {
 }
 
 function verifyChose(event) {
+  if (answerElement.innerText === 'Acertou!') return;
   const clicked = event.target;
   const clickedColor = clicked.style.backgroundColor;
   console.log(clickedColor);
