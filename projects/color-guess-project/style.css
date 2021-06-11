@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  margin: 10px;
+}
+
+p {
+  text-align: center;
+  margin: 10px;
+}
+
+#color-options {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+#color-options .ball {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+#buttons {
+  display: flex;
+  justify-content: center;
+}
+
+#score {
+  font-size: 24px;
+}
