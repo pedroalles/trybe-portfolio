@@ -71,7 +71,7 @@ nav .menu-btn {
   width: 100%;
   background: url("images/photo.png") no-repeat;
   background-position: right;
-  background-size: auto 55%;
+  background-size: auto 75%;
   background-attachment: fixed;
   font-family: 'Ubuntu' , sans-serif;
 }
@@ -90,12 +90,12 @@ nav .menu-btn {
 }
 
 .home .text .text-two {
-  font-size: 40px;
-  margin-left: -1px;
+  font-size: 75px;
+  margin-left: -3px;
+  font-weight: 600;
 }
 
 #name {
-  font-weight: 600;
   color:#4070f4;
 }
 
@@ -105,7 +105,30 @@ nav .menu-btn {
 
 .home .text .text-four {
   font-size: 23px;
-  margin: 5px;
+  margin: 5px 0;
+}
+
+.home .button {
+  margin: 14px 0;
+}
+
+.home .button button {
+  outline: none;
+  color: #FFF;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 8px 16px;
+  background: #4070f4;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  transition: all 0.4s ease;
+  
+}
+
+.home .button button:hover {
+  color: #4070f4;
+  background-color: #FFF;
+  border-color: #4070f4;
 }
 
 @media (max-width: 750px) {
@@ -141,5 +164,41 @@ nav .menu-btn {
   nav .menu-btn,
   .navbar .cancel-btn {
     display: initial;
+  }
+
+  .home {
+    background-size: auto 55%;
+  }
+
+  .home .text .text-two {
+    font-size: 47px;
+    margin-left: -3px;
+  }
+  
+  #name {
+    color:#4070f4;
+  }
+  
+  .home .text .text-three {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 510px) {
+  .home .text .text-two {
+    font-size: 45px;
+    margin-left: -3px;
+  }
+  
+  #name {
+    color:#4070f4;
+  }
+  
+  .home {
+    background-size: auto 38%;
+  }
+
+  .home .text .text-three {
+    font-size: 30px;
   }
 }
